@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Eren Paşaoğlu-Konuşarak Öğren</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<nav>
+		<div class="container clearfix">
+			<div id="name-box">
+				<a href="#about" class="name">
+					Eren Paşaoğlu
+				</a>
+			</div>
+			<div id="nav-links" class="responsive">
+				<ul>
+
+					<li class="nav-item">
+						<a href="#" class="nav-link nav-icon">
+							<i class="fas fa-bars"></i>
+						</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="#about" class="nav-link">
+							Hakkımda
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#gallery" class="nav-link">
+							Galeri
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#comments" class="nav-link">
+							Yorumlar
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contact" class="nav-link">
+							İletişim
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<section id="about">
+		<h2 class="text-uppercase">Hakkımda</h2>
+
+		<hr>
+
+		<div id="about-text" class="clearfix">
+
+			<div class="left">
+				<p class="text">
+					Ankara’da, ODTÜ’de inşaat mühendisliği lisans eğitimimi tamamladıktan sonra web geliştiriciliği ile
+					ilgilenmeye başladım. Bu alanda tamamen tecrübesiz olsam dahi freecodecamp.com ve udemy’den aldığım
+					kurslarla kendimi geliştirmeye çok hevesli şekilde çabalamaktayım. Bu alanda kariyer yapmak bana çok
+					büyük heyecan veriyor.Şu an HTML, CSS (Sass&Scss), Bootstrap ile JavaScript konusunda kursları
+					tamamlamış durumdayım.
+					Kurslardaki alıştırma projelerini Visual Studio Code ile yazmak dışında bir tecrübem bulunmasa da
+					Responsive Tasarım, DOM, Restful API, AJAX gibi kavramlar üzerinde çeşitli alıştırmalar
+					gerçekleştirdim. Üniversitede ise C programlama dili dersi aldım. React.js kursuna ise yeni başlamış
+					bulunuyorum.
+				</p>
+			</div>
+			<div class="right">
+				<p class="text">
+					Hedefim back-end kısmında da gelişerek full-stack hale gelebilmek. Öğrenmenin asla bitmediği bu
+					alanda kendimi şanslı görüyorum, çünkü ben de öğrenmeyi ve öğrendiğimi uygulamayı çok seviyorum. Bu
+					da benim hevesimi artıran sebeplerden bir tanesi. Bununla birlikte,
+					yazılım mühendisliği veya benzeri bir bilgisayar bilimleri bölümünde tezli veya tezsiz yüksek
+					lisansımı
+					tamamlamayı amaçlamaktayım. Bu sayede belli temel kavramlara da daha hakim olacağıma inanıyorum. Bu
+					kariyeri tamamen kendimde heyecan gördüğüm için yapmak istemekteyim.
+					Bu hayalini kurduğum kariyerde, henüz en baştayım ve en ilerisi için çabalayacağım. Yetiştirilmek
+					üzere hevesli şekilde tüm iş fırsatlarını gözlemekteyim.
+				</p>
+			</div>
+
+		</div>
+
+	</section>
+
+	<section id="gallery">
+		<div class="container">
+			<h2 class="text-uppercase">
+				Galeri
+			</h2>
+			<hr>
+
+			<div id="gallery-images row" class="clearfix">
+
+				<div class="col">
+					<div class="gallery-item">
+						<img class="img-fluid" src="img/Adsız.jpg" alt="">
+					</div>
+
+				</div>
+				<div class="col">
+					<div class="gallery-item">
+						<img class="img-fluid" src="img/Eren - Kopya.jpg" alt="">
+					</div>
+
+				</div>
+				<div class="col">
+					<div class="gallery-item">
+						<img class="img-fluid" src="img/KL1B0918 - Kopya.JPG" alt="">
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section id="comments">
+		<div class="container p-3 clearfix">
+
+			<h1 class="app-title text-uppercase">Yorumlar</h1>
+			<hr>
+
+			<div class="card">
+				<div class="card-header">Yorum ekleyin</div>
+				<div class="card-body">
+					<form action="" class="addTaskForm">
+						<div class="input-group mt-3">
+							<input id="txtTaskName" class="form-control" type="text"
+								placeholder="Yeni bir yorum ekleyin..."></input>
+
+							<div class="input-group-append">
+								<button href="#" class="btn btn-primary" id="btnAddNewTask">
+									<i class="fas fa-plus"></i>
+								</button>
+							</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div class="card mt-3">
+			<div class="card-header">
+				Yorumlar
+				<a href="#" id="btnDeleteAll" class="btn btn-outline-danger btn-sm delete-all">
+					Tümünü Sil
+				</a>
+			</div>
+			<ul id="task-list" class="list-group">
+
+			</ul>
+		</div>
+	</section>
+
+	<footer id="contact">
+		<div class="container clearfix">
+
+			<div class="col">
+				<h4 class="text-uppercase">Adres</h4>
+				<p>
+					<br>
+					Güzeltepe Mahallesi 5. Levent Torunlar Sitesi C1/34 <br>
+					Eyüp/İSTANBUL
+				</p>
+			</div>
+			<div class="col">
+				<h4 class="text-uppercase">Sosyal Medya</h4>
+				<ul>
+
+					<li>
+						<a class="btn btn-outline btn-social" target="_blank" href="https://www.facebook.com/eren1pasaoglu/">
+							<i class="fab fa-fw fa-facebook-f"></i>
+						</a>
+					</li>
+
+					<li>
+						<a class="btn btn-outline btn-social" target="_blank" href="https://www.twitter.com/erenpasaoglu">
+							<i class="fab fa-fw fa-twitter"></i>
+						</a>
+					</li>
+
+					<li>
+						<a class="btn btn-outline btn-social" target="_blank" href="https://www.instagram.com/erenpasaoglu">
+							<i class="fab fa-fw fa-instagram"></i>
+						</a>
+					</li>
+
+					<li>
+						<a class="btn btn-outline btn-social" target="_blank" href="https://www.linkedin.com/in/erenpasaoglu">
+							<i class="fab fa-fw fa-linkedin-in"></i>
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+			<div class="col text-uppercase">
+				<h4>Telefon</h4>
+				<p>
+					<br>
+					+90 (532) 061 09 07
+				</p>
+			</div>
+
+		</div>
+	</footer>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+		crossorigin="anonymous"></script>
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+	<script>
+
+		$('.nav-icon').click(function () {
+			$('#nav-links').toggleClass("responsive");
+			return false;
+		});
+
+	</script>
+
+	<script src="script.js"></script>
+
+</body>
+
+</html>
