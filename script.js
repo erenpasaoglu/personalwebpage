@@ -127,3 +127,22 @@ function deleteAllItems(e){
 
     e.preventDefault();
 }
+
+const navIcon = document.querySelector('.nav-link.nav-icon')
+
+navIcon.addEventListener('click', function() {
+  let navItems = Array.from(document.querySelectorAll('.nav-item'))
+  navItems = navItems.filter(function(item) {
+    if (!item.className.includes('nav-icon')) {
+      return item
+    }
+  })
+
+  navItems.forEach(function(item) {
+    if (item.className.includes('hidden')) {
+      item.classList.remove('hidden')
+    } else {
+      item.classList.add('hidden')
+    }
+  })
+})
