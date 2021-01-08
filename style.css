@@ -369,11 +369,3 @@ footer li {
   display: inline-block;
   margin-right: 1rem;
 }
-
-.copyright {
-  background-color: #1a252f;
-  padding-top: 2.4rem;
-  padding-bottom: 2.4rem;
-  color: #fff;
-  text-align: center;
-}

@@ -128,6 +128,8 @@ function deleteAllItems(e){
     e.preventDefault();
 }
 
+/* nav icon */
+
 const navIcon = document.querySelector('.nav-link.nav-icon')
 
 navIcon.addEventListener('click', function() {
